@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro'
+---
+
+<Layout title='Importancia'>
+  <div class="py-8 px-4 mx-auto lg:py-160 lg:px-6">
+    <!-- <a href="/index.astro" class="text-gray-300 bg-slate-800 hover:bg-violet-950 px-3 py-2 font-medium text-lg rounded-md" x-state-description="undefined: &quot;bg-gray-100 text-gray-700&quot;, undefined: &quot;text-gray-500 hover:text-gray-700&quot;">Volver a Inicio</a> -->
+    <div class="mx-auto text-center mb-8 lg:mb-16">
+      <h1 class="mb-4 text-5xl tracking-tight font-extrabold text-white"><span class="text-gradient">Importancia del Diseño Web</span></h1>
+    </div>
+    <div class="flex justify-center">
+      <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow  md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <img class="object-cover  rounded-t-lg rounded-b-lg h-96 md:h-auto md:w-56 mt-6 " src="https://www.guadaltech.es/wp-content/uploads/2020/10/THG_M132_04-scaled.jpg" alt="">
+        <div class="flex flex-col justify-between p-4 leading-normal">
+            <!-- <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5> -->
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">El diseño web es de gran importancia en cualquier negocio, ya que es la cara pública online de la marca y puede influir en la percepción que los usuarios tienen de la empresa. Una buena estética y una óptima experiencia del usuario son los principales objetivos del diseño de un sitio web. Además, un buen diseño web aporta confianza, seguridad e imagen de marca, permite una carga veloz, es responsivo, intuitivo y permite conectividad con redes sociales, lo que genera mayor conversión y aumenta la difusión en redes sociales.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</Layout>
+
+
+<style>
+  .text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+</style>

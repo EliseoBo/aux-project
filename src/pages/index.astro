@@ -1,0 +1,55 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Header from '../components/Header.astro';
+// import Aside from '../components/Aside.astro';
+---
+
+<Layout title="Diseño Web">
+	<main>
+
+		<Header />
+		
+		<ul role="list" class="link-card-grid">
+			<Card
+				href="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/687951/retina_1708x683_staging.toptal.net_designers_ux_diseno-web-brutalista-diseno-web-minimalista-y-el-futuro-del-web-ux-92ef53170f74a492eecb6562729c5d24.png"
+				body="¿Qué es el diseño web?."
+				a='quees'
+			/>
+			<Card
+				href="https://m5s7j2f7.rocketcdn.me/wp-content/uploads/fly-images/6906/s21-2136x0.jpg"
+				body="Importancia del diseño web."
+				a="importancia"
+			/>
+		</ul>
+		<p class=" mt-24 font-light">Univ. Elieo Bonifacio Charocsi</p>
+	</main>
+
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 800px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+	
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+		gap: 2rem;
+		padding: 0;
+	}
+</style>

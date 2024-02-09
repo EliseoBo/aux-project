@@ -1,0 +1,21 @@
+---
+import Navb from '../components/Navb.astro';
+---
+
+<header class="py-8 px-4 mx-auto max-w-xl lg:py-160 lg:px-2">
+  <div class="mx-auto text-center mb-8 lg:mb-16">
+    <h1 class="mb-4 text-5xl tracking-tight font-extrabold text-white"><span class="text-gradient">Diseño gráfico aplicado a los sitios Web</span></h1>
+  </div>
+  
+  <Navb />
+</header>
+
+<style>
+  .text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+</style>
